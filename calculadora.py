@@ -22,7 +22,7 @@ print("1 - Soma")
 print("2 - Subtração")
 print("3 - Multiplicação")
 print("4 - Divisão")
-print("--------------------------------")
+print("--------------------------------") 
 op = int(input("Digite a operação que deseja realizar: "))
 print(" ")
 
@@ -45,6 +45,9 @@ elif op == 4:
     x = float(input("Digite X: "))
     y = float(input("Digite Y: "))
     print("Resultado:", divisao(x, y))
+
+else:
+    print("Operação Inválida!")
 
 
 
