@@ -34,11 +34,6 @@ if op == 1:
 elif op == 2:
     x = float(input("Digite X: "))
     y = float(input("Digite Y: "))
-    print("Resultado:", subtracao(x, y))
-
-elif op == 3:
-    x = float(input("Digite X: "))
-    y = float(input("Digite Y: "))
     print("Resultado:", multiplicacao(x, y))
 
 elif op == 4:
